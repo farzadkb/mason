@@ -4,8 +4,6 @@ sleep 1
 echo "======== Install update and upgrade =============="
 sudo apt-get update -y && sudo apt-get install wget -y
 sleep 1
-echo "======== download & install meson =============="
-echo "start-----"
 wget https://staticassets.meson.network/public/meson_cdn/v3.1.18/meson_cdn-linux-amd64.tar.gz
 tar -zxf meson_cdn-linux-amd64.tar.gz
 sleep 1
